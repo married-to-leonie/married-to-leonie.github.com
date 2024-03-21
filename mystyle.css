@@ -2,6 +2,20 @@ body {
     background: black
 }
 
+.bg-image {
+  background-image: url("https://img.freepik.com/free-vector/vector-valentines-day-seamless-pink-background-with-heart-shape-pattern-horizontally-repeatable_8130-1838.jpg?w=1060&t=st=1711043134~exp=1711043734~hmac=80c13fab7eb7f8813e7197d6221514fe45f6e3b9fbca9cc18c6bec09bb2f76f1");
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .card {
     border: none;
     position: relative;
