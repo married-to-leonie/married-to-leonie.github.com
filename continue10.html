@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/display-styles.css">
+    <link rel="stylesheet" href="/styles/snackbar-styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="icon" href="/assets/heart.png">
+    <title>Kayletter</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="displayTitle" class="doNotSelect">
+            &#x200B;
+        </div>
+
+        <img id="displayImg" class="doNotSelect" src="/flowers/sunflower.gif" alt="">
+        <div id="flowerCanvas"></div>
+        <img id="msgBackgroundEffect" src="/assets/hearts.gif" alt="">
+
+        <div id="msgContainer">
+            <div id="leftArrow" class="arrow doNotSelect">⤷</div>
+
+            <h1 class="ml6">
+                <span class="text-wrapper">
+                    <span id="noteTarget" class="letters"></span>
+                </span>
+            </h1>
+            
+            <div id="rightArrow" class="arrow doNotSelect">⤷</div>
+
+            <div id="noteDate" class="noteInfo"></div>
+            <div id="notePosition" class="noteInfo"></div>
+        </div>
+
+        <div id="liveTimer">&#x200B;</div>
+
+        <div id="snackbar"></div>
+    </div>
+
+<script defer src="bundle.js"></script></body>
+</html>
