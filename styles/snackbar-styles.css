@@ -19,7 +19,6 @@
 
 /* ==== Animations ====*/
 
-/* Animations to fade the snackbar in and out */
 @-webkit-keyframes fadein {
     from {bottom: 0; opacity: 0;}
     to {bottom: 30px; opacity: 1;}
@@ -38,12 +37,4 @@
 @keyframes fadeout {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
-}
-
-/* ==== Mobile ====*/
-
-@media only screen and (max-width: 600px) {
-    #snackbar{
-        font-size: 15px;
-    }
 }
