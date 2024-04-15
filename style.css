@@ -102,6 +102,27 @@
  .flower--3 .flower__line__leaf--4 {
 	 animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
 }
+ .flower--4 {
+	 transform: rotate(30deg);
+	 animation: moving-flower-2 4s linear infinite;
+}
+ .flower--4 .flower__line {
+	 height: 60vmin;
+	 animation-delay: 0.6s;
+}
+ .flower--4 .flower__line__leaf--1 {
+	 animation: blooming-leaf-right var(--fl-speed) 1.9s backwards;
+}
+ .flower--4 .flower__line__leaf--2 {
+	 animation: blooming-leaf-right var(--fl-speed) 1.7s backwards;
+}
+ .flower--4 .flower__line__leaf--3 {
+	 animation: blooming-leaf-left var(--fl-speed) 1.5s backwards;
+}
+ .flower--4 .flower__line__leaf--4 {
+	 animation: blooming-leaf-left var(--fl-speed) 1.3s backwards;
+}
+
  .flower__leafs {
 	 position: relative;
 	 animation: blooming-flower 2s backwards;
