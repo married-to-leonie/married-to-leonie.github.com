@@ -104,7 +104,7 @@
 }
  .flower--4 {
 	 transform: rotate(-13deg);
-	 animation: moving-flower-2 4s linear infinite;
+	 animation: moving-flower-4 4s linear infinite;
 }
  .flower--4 .flower__line {
 	 height: 60vmin;
