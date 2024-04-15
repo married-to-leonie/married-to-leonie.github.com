@@ -103,7 +103,7 @@
 	 animation: blooming-leaf-left var(--fl-speed) 1.9s backwards;
 }
  .flower--4 {
-	 transform: rotate(30deg);
+	 transform: rotate(13deg);
 	 animation: moving-flower-2 4s linear infinite;
 }
  .flower--4 .flower__line {
