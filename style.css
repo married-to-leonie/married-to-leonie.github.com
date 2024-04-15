@@ -136,6 +136,10 @@
  .flower__leafs--3 {
 	 animation-delay: 1.7s;
 }
+
+.flower__leafs--4 {
+	 animation-delay: 2s;
+}
  .flower__leafs::after {
 	 content: "";
 	 position: absolute;
