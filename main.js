@@ -4,3 +4,7 @@ onload = () => {
       clearTimeout(c);
     }, 1000);
   };
+
+var audio = new Audio("music/iloveu.mp3");
+ audio.loop = true;
+audio.play();
